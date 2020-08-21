@@ -53,12 +53,12 @@ ul {
   line-height: 1.19;
   letter-spacing: 0.02em;
   text-decoration: none;
-  margin-right: 95px;
   color: var(--logo-color);
+  margin-right: 95px;
 }
 
 .logo-item {
-  margin: 60px 0px 10px 0px;
+  display: flex;
 }
 
 .list {
@@ -157,17 +157,26 @@ ul {
   line-height: 1.36;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-
+  text-align: center;
   color: var(--adress-color);
+
   width: 700px;
   height: 120px;
-  margin-bottom: 30px;
+
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  padding-top: 200px;
 }
 
 .page-box {
 }
 .hero {
   background: #2f303a;
+}
+
+.hero-item {
+  height: 600px;
   text-align: center;
 }
 
@@ -182,6 +191,11 @@ ul {
   text-align: center;
   letter-spacing: 0.06em;
   color: var(--adress-color);
+  margin: auto;
+}
+
+.btn-box {
+  margin-bottom: 200px;
 }
 
 .button {
@@ -193,6 +207,37 @@ ul {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--dark-color);
+  margin: auto;
+}
+
+.btn-item {
+  display: flex;
+  justify-content: center;
+  margin-right: 10px;
+  margin-bottom: 35px;
+}
+
+.btn-item:nth-child(5n) {
+  margin-right: 10px;
+}
+
+.gallery-container {
+  display: flex;
+  flex-wrap: wrap;
+  text-decoration: none;
+  margin: auto;
+  padding: 0px;
+}
+
+.gallery-box {
+  width: calc((100% - 60px) / 3);
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+
+.gallery-box:nth-child(3n) {
+  margin-right: 0px;
+  margin-bottom: 30px;
 }
 
 .section-item {
@@ -206,7 +251,6 @@ ul {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--dark-color);
-  margin: 0px;
 }
 
 .section-subtitle {
@@ -238,6 +282,7 @@ ul {
   text-transform: uppercase;
   background: #383434;
   color: var(--adress-color);
+  margin-bottom: 95px;
 }
 
 .signature-box {
@@ -274,7 +319,6 @@ ul {
   line-height: 1.714;
   letter-spacing: 0.03em;
   color: var(--adress-color);
-  background: #383434;
   text-decoration: none;
 }
 
@@ -290,4 +334,6 @@ ul {
 .contact {
   background: #2f303a;
   height: 255px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }

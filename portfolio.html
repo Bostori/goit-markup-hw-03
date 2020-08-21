@@ -41,23 +41,33 @@
       <section>
         <div class="container">
           <h1 class="text">Фильтры</h1>
-          <ul>
-            <li><button type="button" class="button">Все</button></li>
-            <li><button type="button" class="button">Веб-сайт</button></li>
-            <li><button type="button" class="button">Приложение</button></li>
-            <li><button type="button" class="button">Дизайн</button></li>
-            <li><button type="button" class="button">Маркетинг</button></li>
+          <ul class="btn-item">
+            <li>
+              <button type="button" class="button">Все</button>
+            </li>
+            <li>
+              <button type="button" class="button">Веб-сайт</button>
+            </li>
+            <li>
+              <button type="button" class="button">Приложение</button>
+            </li>
+            <li>
+              <button type="button" class="button">Дизайн</button>
+            </li>
+            <li>
+              <button type="button" class="button">Маркетинг</button>
+            </li>
           </ul>
           <h2 class="text">Галерея</h2>
-          <ul>
-            <li>
+          <ul class="gallery-container">
+            <li class="gallery-box">
               <a href="">
                 <img src="./images/websayt.jpg" alt="Веб-сайт" width="370" />
                 <h3 class="section-subtitle">Технокряк</h3>
                 <p class="section-description">Веб-сайт</p>
               </a>
             </li>
-            <li>
+            <li class="gallery-box">
               <a href="">
                 <img src="./images/dizayn.jpg" alt="Дизайн" width="370" />
                 <h3 lang="en+ru" class="section-subtitle">
@@ -66,18 +76,20 @@
                 <p class="section-description">Дизайн</p>
               </a>
             </li>
-            <li>
+            <li class="gallery-box">
               <a href="">
                 <img
                   src="./images/restoran.jpg"
                   alt="Приложение ресторан"
                   width="370"
                 />
-                <h3 lang="en+ru" class="section-subtitle">Ресторан Seafood</h3>
+                <h3 lang="en+ru" class="section-subtitle">
+                  Ресторан Seafood
+                </h3>
                 <p class="section-description">Приложение</p>
               </a>
             </li>
-            <li>
+            <li class="gallery-box">
               <a href="">
                 <img
                   src="./images/proectmarceting.jpg"
@@ -88,7 +100,7 @@
                 <p class="section-description">Маркетинг</p>
               </a>
             </li>
-            <li>
+            <li class="gallery-box">
               <a href="">
                 <img
                   src="./images/img.jpg"
@@ -99,7 +111,7 @@
                 <p class="section-description">Приложение</p>
               </a>
             </li>
-            <li>
+            <li class="gallery-box">
               <a href="">
                 <img src="./images/img2.jpg" alt="Веб-сайт" width="370" />
                 <h3 lang="en" class="section-subtitle">
@@ -108,7 +120,7 @@
                 <p class="section-description">Веб-сайт</p>
               </a>
             </li>
-            <li>
+            <li class="gallery-box">
               <a href="">
                 <img src="./images/img9.jpg" alt="Дизайн издание" width="370" />
                 <h3 lang="en+ru" class="section-subtitle">
@@ -117,14 +129,14 @@
                 <p class="section-description">Дизайн</p>
               </a>
             </li>
-            <li>
+            <li class="gallery-box">
               <a href="">
                 <img src="./images/img10.jpg" alt="Проект лаб" width="370" />
                 <h3 lang="en+ru" class="section-subtitle">Проект LAB</h3>
                 <p class="section-description">Маркетинг</p>
               </a>
             </li>
-            <li>
+            <li class="gallery-box">
               <a href="">
                 <img src="./images/img11.jpg" alt="Приложение" width="370" />
                 <h3 lang="en" class="section-subtitle">Growing Business</h3>
@@ -135,12 +147,14 @@
         </div>
       </section>
     </main>
-    <footer>
+    <footer class="contact">
       <div class="container">
         <h2 class="text">Контакты</h2>
-        <a href="./index.html" class="logo"> <span>Web</span>Studio </a>
-        <ul>
-          <li>
+        <a href="./index.html" class="logo logo-item">
+          <span>Web</span>Studio
+        </a>
+        <ul class="list">
+          <li class="adress-item">
             <a
               href="https://goo.gl/maps/r8ToqrYWToX4Noqg9"
               target="_blank"
@@ -150,12 +164,12 @@
               г. Киев, пр-т Леси Украинки, 26
             </a>
           </li>
-          <li>
+          <li class="adress-item">
             <a href="tel:+380991111111" class="contacs-link"
               >+38 099 111 11 11</a
             >
           </li>
-          <li>
+          <li class="adress-item">
             <a href="mailto:info@example.com" class="contacs-link"
               >info@example.com</a
             >
